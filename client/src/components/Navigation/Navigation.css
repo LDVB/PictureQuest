@@ -1,0 +1,144 @@
+*{
+    
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+.home{
+    font-family: Lakki Reddy;
+    color: black;
+    font-size: 40px;
+}
+
+
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: inherit;
+    background: rgb(194,187,236);
+    background: linear-gradient(114deg, rgba(194,187,236,1) 7%, rgba(247,194,214,1) 39%, rgba(247,194,214,1) 63%, rgba(253,255,211,1) 91%);
+}
+
+
+  
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.nav-links {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  border-bottom: 3px solid transparent;
+}
+.fa-code {
+  margin-left: 1rem;
+}
+
+.nav-item {
+  line-height: 40px;
+  margin-right: 1rem;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  height: 3px;
+  width: 0;
+  background: transparent;
+  transition: width 0.7s ease, background-color 0.5s ease;
+}
+
+.nav-item:hover:after {
+  width: 100%;
+  background: #373634
+}
+
+.nav-item.active{
+ color:rgb(225, 44, 192);
+
+
+}
+
+.Nav-menu{
+
+    font-family: Montserrat;
+    padding: 50px;
+    display: flex;
+    justify-content:right;
+    align-items: flex-end;
+    top:0;
+    margin-right: 1rem;
+    margin-left: 10rem;
+    position:relative;
+    z-index: 20;
+    color: black;
+}
+
+.NavLink {
+
+    color: black;
+    padding: 15px;
+    display: block;
+    height: 100%;
+    font-weight: 700;
+
+}
+
+
+.Nav-Icon {
+    display: none;
+
+}
+  
+@media screen and (max-width: 960px) {
+    .Nav-menu {
+      display: flex;
+      flex-direction:column;
+      width: 100%;
+      position: absolute;
+      margin-top: 40px;
+      opacity: 1;
+      left: -110%;
+      transition: all 0.5s ease;
+
+    }
+
+    .Nav-menu .active {
+        background: #f7c2d6;
+        left: 0px;
+        opacity: 1;
+        transition: all .5s ease;
+        z-index: 1;
+        color:black;
+    }   
+
+    .NavLink {
+        padding: 1.5rem;
+        width: 100%;
+        display: table;
+
+    }
+
+    
+    .Nav-Icon {
+        display: block;
+        position: absolute;
+        top:0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: black;
+
+    }
+}
