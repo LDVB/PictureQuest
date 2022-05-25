@@ -55,10 +55,10 @@ const PictureEdit = () => {
         }
 
         return (
-            
-        
+            <>
+                <img className='pic2' src= "\rodillo.png"/>
 
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit} className ="card-form2">
                     
                 <div class="input">
 				    <input type="text" class="input-field" controlId={title} onChange={handleImputChange} name= 'title'/>
@@ -77,6 +77,8 @@ const PictureEdit = () => {
 				<button class="action" >Modificar imagen</button>
 			</div>
                 </Form >
+
+        </>
 
         )
 

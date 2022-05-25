@@ -1,8 +1,11 @@
-
-
-.card-form {
+.pic2{
+    width: 913px;
+    margin-left: 622px;
+    margin-top: -28px;
+}
+.card-form2 {
 	
-    margin: -33rem auto;
+    margin: -34rem auto;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
