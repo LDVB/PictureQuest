@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "628d2842f345145bf2bab6d6"
+  },
+  "title": "Fuji",
+  "description": "Monte Fuji - Japón",
+  "imageUrl": "https://tipsparatuviaje.com/wp-content/uploads/2018/08/cinco-lagos-fuji.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653418050647"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1653418050647"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "628d2a47f345145bf2bab6db"
+  },
+  "title": "Cielo II",
+  "description": "Cielo de acuarela",
+  "imageUrl": "https://i.pinimg.com/originals/70/3b/4f/703b4ff8c06fe049771b673c93de617c.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653418567346"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1653505839552"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "628deef7f345145bf2bab6e9"
+  },
+  "title": "Cascada Modificado",
+  "description": "Paisaje de verano",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwtLHx96Da5VFLsauztgsxbZMr9VPieL5_XA&usqp=CAU",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653468919418"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1653490853499"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "628df528f345145bf2bab6fe"
+  },
+  "title": "Azules",
+  "description": "Tonos azules en el lago",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkm3Ypzp48DvcYCldOOwxRMjQS2owAPAIT9A&usqp=CAU",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653470504933"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1653470504933"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "628dfc92f345145bf2bab714"
+  },
+  "title": "Montañas",
+  "description": " prueba 3",
+  "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLPO7K9Qt2aoBjGbODv4jw2f7JhR-6HcwBXw&usqp=CAU",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1653472402363"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1653472402363"
+    }
+  },
+  "__v": 0
+}]
