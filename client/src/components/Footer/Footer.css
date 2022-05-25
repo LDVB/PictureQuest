@@ -2,14 +2,13 @@
 .footer{
     background: rgb(194,187,236);
     background: linear-gradient(114deg, rgba(194,187,236,1) 7%, rgba(247,194,214,1) 39%, rgba(247,194,214,1) 63%, rgba(253,255,211,1) 91%);
-    padding: 15px 10px;
     text-align: center;
     font-family: montserrat;
     color:black;
     font-weight: 700;
     position: fixed;
     width: 100%;
-    height: 50px;
+    height: -13px;
     margin-top: 10px;
     padding-top: 10px;
     bottom: 0;
@@ -24,7 +23,6 @@
         text-align: center;
         bottom: 0;
         width: 100%;
-        position: fixed;
     }
   
   }

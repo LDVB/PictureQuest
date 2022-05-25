@@ -1,0 +1,75 @@
+h3{
+    text-transform: capitalize;
+}
+
+.name{
+    margin-top: 60px;
+    margin-left: 300px;
+    font-family: Montserrat;
+    font-size: medium;
+    font-weight: 700;
+}
+
+
+.photo{
+    width: 400px;
+    height: 400px;
+    border-radius: 23px;
+    margin-left: 750px;
+    margin-top: -41px;
+}
+
+.space{
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    
+
+
+}
+
+.edit {
+    cursor: pointer;
+    border: 1px solid rgb(122, 225, 71);
+    background-color: transparent;
+    height: 50px;
+    width: 327px;
+    color: rgb(122, 225, 71);
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+
+
+.delete {
+
+    cursor: pointer;
+    border: 1px solid rgb(241 , 121, 36);
+    background-color: transparent;
+    height: 50px;
+    width: 327px;
+    color: rgb(241 , 121, 36);
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: 15px;
+
+
+}
+
+.volver {
+    cursor: pointer;
+    border: 1px solid rgb(106, 130, 219);
+    background-color: transparent;
+    height: 50px;
+    width: 327px;
+    color: rgb(106, 130, 219);
+    font-size: 1.5em;
+    font-family: Montserrat;
+    font-weight: 700;
+    margin-top: 15px;
+
+}

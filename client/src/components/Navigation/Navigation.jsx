@@ -23,7 +23,13 @@ const Navigation = () => {
                
                 <nav className={click ? 'Nav-menu active' : 'Nav-menu'}>
 
-                    
+                    <Link to="/" className="nav-item">
+                        <Nav.Link  as="span" active className="NavLink" onClick={handleClick}> Inicio </Nav.Link>
+                    </Link>
+
+                    <Link to="/galeria" className="nav-item">
+                        <Nav.Link  as="span" active className="NavLink" onClick={handleClick}> galeria de Imagenes </Nav.Link>
+                    </Link>
 
                     <Link to="/NuevaImagen" className="nav-item">
                         <Nav.Link  as="span" active className="NavLink" onClick={handleClick}> Añadir Imagen </Nav.Link>

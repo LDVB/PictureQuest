@@ -20,6 +20,7 @@
     align-items: center;
     height: 80px;
     max-width: inherit;
+    margin-bottom: 30px;
     background: rgb(194,187,236);
     background: linear-gradient(114deg, rgba(194,187,236,1) 7%, rgba(247,194,214,1) 39%, rgba(247,194,214,1) 63%, rgba(253,255,211,1) 91%);
 }
